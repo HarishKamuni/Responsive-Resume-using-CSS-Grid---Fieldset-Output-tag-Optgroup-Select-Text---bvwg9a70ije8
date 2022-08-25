@@ -19,12 +19,12 @@ main{
     width: 90%;
     margin: 20px auto;
     
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 300px 700px;
     min-height: 1000px;
 }
 .left-section{
-    /* display: grid; */
-    /* grid-column-start: 1px/span 300px; */
+    display: grid;
+    grid-column-start: 0px/span 300px;
     background-color: rgb(65, 70, 68);
    
 }
@@ -58,7 +58,7 @@ main{
 .description{
     font-size: 0.75rem;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 1rem;
     color: aliceblue;
 }
 .social-media, .icon{
@@ -98,7 +98,7 @@ main{
     
 }
 .right-section{
-    /* display: grid; */
+    display: grid;
     grid-column-start: 300px/ span 1000px;
     background-color: bisque;
 }
